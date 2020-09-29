@@ -17,7 +17,7 @@ function setup() {
 
     frameRate(30);
 
-    let repeat = createDiv('<h2>Repeat it</h2>');
+    let repeat = createDiv('<h3>Repeat it</h3>');
     repeat.style('color', 'white')
     repeat.position(width - wUnit, height / 2);
     repeat.size(wUnit / 3);
@@ -28,7 +28,7 @@ function setup() {
     // repeatSlider.position(width - wUnit, height / 2)
     repeatSlider.parent(repeat);
 
-    let side = createDiv('<h2>Shape it</h2>');
+    let side = createDiv('<h3>Shape it</h3>');
     side.style('color', 'white');
     side.position(wUnit / 2, height / 2);
     side.size(wUnit / 3);
